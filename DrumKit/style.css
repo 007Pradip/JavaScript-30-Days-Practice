@@ -1,6 +1,7 @@
 .body{
     background-color: black;
     text-align: center;
+   
 }
 
 .keys{
@@ -43,3 +44,19 @@ kbd{
     color: #ffc600;
 }
 
+.banner{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+
+}
